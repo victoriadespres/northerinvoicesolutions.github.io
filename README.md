@@ -1,11 +1,15 @@
-# Northern Invoice Solutions Website
+# Northern Invoice Solutions - Final Clean Website
 
-Polished V4 static website package.
+Upload these exact files/folders to the ROOT of your GitHub repository:
 
-Upload to GitHub root:
 - index.html
 - style.css
 - script.js
 - assets folder
+- README.md
 
-Commit directly to main.
+The assets folder must contain:
+- header-logo.png
+- logo.png
+- victoria-headshot.jpg
+- victoria-about.jpg
