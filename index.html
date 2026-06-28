@@ -4,218 +4,314 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Northern Invoice Solutions | Third-Party Invoice Processing</title>
-  <meta name="description" content="Remote third-party invoice processing, field ticket support, invoice auditing and AP administration for Canadian energy, industrial and construction companies." />
+  <meta name="description" content="Professional third-party invoice processing, field ticket support, invoice auditing, and accounts payable administration for Canadian energy, industrial, and construction companies." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <header class="site-header">
+  <header class="site-header" id="top">
     <div class="container nav">
       <a class="brand" href="#home">
-        <img src="assets/header-logo.png" alt="Northern Invoice Solutions" />
+        <img src="assets/header-logo.png" alt="Northern Invoice Solutions logo">
       </a>
-      <nav class="nav-links">
+      <nav class="nav-links" aria-label="Main navigation">
         <a href="#services">Services</a>
         <a href="#pricing">Plans & Pricing</a>
-        <a href="#why">Why Us</a>
+        <a href="#why">Why Choose Us</a>
         <a href="#about">About</a>
-        <a class="nav-cta" href="#contact">Contact</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-button" href="#contact">Request a Consultation</a>
       </nav>
     </div>
   </header>
 
   <main id="home">
     <section class="hero">
-      <div class="hero-shade"></div>
-      <div class="container hero-grid">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
         <div class="hero-copy reveal">
-          <p class="eyebrow">Remote invoice processing support across Canada</p>
-          <h1>Reliable third-party invoice processing for energy & industrial businesses.</h1>
-          <p class="lead">Northern Invoice Solutions helps Canadian companies streamline invoice processing, field ticket administration, accounts payable support and platform management with fast, accurate and confidential service.</p>
-          <div class="button-row">
+          <p class="eyebrow">Remote invoice processing support</p>
+          <h1>Reliable Third-Party Invoice Processing</h1>
+          <p class="hero-subtitle">Helping Energy, Industrial & Construction Companies Keep Their Billing Moving</p>
+          <p class="lead">
+            Professional invoice processing, field ticket administration, AP support and platform management—delivered remotely across Canada.
+          </p>
+          <div class="hero-actions">
             <a class="button primary" href="#contact">Request a Consultation</a>
-            <a class="button secondary" href="#pricing">View Plans</a>
+            <a class="button secondary" href="#pricing">View Plans & Pricing</a>
           </div>
-        </div>
-
-        <div class="hero-panel reveal">
-          <p class="panel-title">Built for high-volume AP workflows</p>
-          <div class="stats">
-            <div><strong>700+</strong><span>Invoices processed weekly</span></div>
-            <div><strong>5+</strong><span>Major platforms supported</span></div>
-            <div><strong>100%</strong><span>Remote support available</span></div>
+          <div class="platform-strip">
+            <span>✓ OpenInvoice</span>
+            <span>✓ Ariba</span>
+            <span>✓ Pandell</span>
+            <span>✓ Coupa</span>
+            <span>✓ Energy Payables</span>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section intro" id="about">
-      <div class="container split">
-        <div class="logo-card reveal">
-          <img src="assets/logo.png" alt="Northern Invoice Solutions logo">
+    <section class="stats-band">
+      <div class="container stats-grid">
+        <div class="stat reveal">
+          <span class="stat-icon">📄</span>
+          <strong data-count="700">700+</strong>
+          <p>Invoices Processed Weekly</p>
         </div>
-        <div class="reveal">
-          <p class="eyebrow">About Northern Invoice Solutions</p>
-          <h2>Invoice support that understands energy, industrial and construction workflows.</h2>
-          <p>Northern Invoice Solutions was founded by Victoria Despres in Grande Prairie, Alberta to help businesses reduce administrative workload, improve invoice accuracy and keep billing moving.</p>
-          <p>With hands-on experience processing high-volume invoices across platforms such as OpenInvoice, Ariba, Pandell, Coupa and Energy Payables, Victoria brings practical support to companies that need reliable AP assistance without hiring and training in-house.</p>
+        <div class="stat reveal">
+          <span class="stat-icon">💻</span>
+          <strong data-count="5">5+</strong>
+          <p>Major Platforms</p>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-icon">📍</span>
+          <strong data-count="100">100%</strong>
+          <p>Remote Across Canada</p>
         </div>
       </div>
     </section>
 
-    <section class="section soft" id="services">
+    <section class="section" id="services">
       <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Services</p>
-          <h2>Professional support for invoice-heavy teams.</h2>
-          <p>Flexible remote processing support for companies that need accurate submissions, organized follow-up and dependable administrative help.</p>
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Our Services</p>
+          <h2>Professional support for invoice-heavy workflows.</h2>
+          <p>Flexible remote support for companies that need accurate processing, organized documentation, and dependable follow-up.</p>
         </div>
 
         <div class="service-grid">
-          <article class="service-card reveal"><div class="icon">📄</div><h3>OpenInvoice</h3><p>Invoice submission, tracking and processing support for OpenInvoice workflows.</p></article>
-          <article class="service-card reveal"><div class="icon">📊</div><h3>Ariba</h3><p>Vendor invoice management, document handling and processing assistance.</p></article>
-          <article class="service-card reveal"><div class="icon">🧾</div><h3>Pandell</h3><p>Processing and administration support for energy-related invoice workflows.</p></article>
-          <article class="service-card reveal"><div class="icon">💼</div><h3>Coupa</h3><p>Invoice coding, tracking, follow-up and remote processing support.</p></article>
-          <article class="service-card reveal"><div class="icon">⚡</div><h3>Energy Payables</h3><p>Third-party processing support for energy service platforms and vendors.</p></article>
-          <article class="service-card reveal"><div class="icon">🎫</div><h3>Field Ticket Processing</h3><p>Review, matching and submission support for field tickets and paperwork.</p></article>
-          <article class="service-card reveal"><div class="icon">✔</div><h3>Invoice Auditing</h3><p>Review invoices for missing details, errors and submission issues.</p></article>
-          <article class="service-card reveal"><div class="icon">📋</div><h3>AP Administration</h3><p>Administrative assistance for queues, backlogs, documentation and follow-up.</p></article>
+          <article class="service-card reveal">
+            <div class="icon">📄</div>
+            <h3>OpenInvoice</h3>
+            <p>Professional invoice processing and submission support.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="icon">🤝</div>
+            <h3>Ariba</h3>
+            <p>Vendor invoice management and processing support.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="icon">🧾</div>
+            <h3>Pandell</h3>
+            <p>Processing and administration for energy workflows.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="icon">💼</div>
+            <h3>Coupa</h3>
+            <p>Invoice coding, tracking, and processing support.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="icon">⚡</div>
+            <h3>Energy Payables</h3>
+            <p>Efficient third-party processing for energy sector companies.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="icon">🎫</div>
+            <h3>Field Ticket Processing</h3>
+            <p>Documentation, matching, and submission support.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="icon">🛡️</div>
+            <h3>Invoice Auditing</h3>
+            <p>Catch errors and ensure accuracy before submission.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="icon">👥</div>
+            <h3>Accounts Payable Administration</h3>
+            <p>Reliable administrative support for busy finance teams.</p>
+          </article>
         </div>
       </div>
     </section>
 
     <section class="section pricing-section" id="pricing">
       <div class="container">
-        <div class="section-heading reveal">
+        <div class="section-heading center reveal">
           <p class="eyebrow">Plans & Pricing</p>
-          <h2>Transparent monthly support plans.</h2>
-          <p>Choose the level of support that fits your workload. Additional time and custom projects are available as needed.</p>
+          <h2>Flexible monthly plans to fit your business needs.</h2>
+          <p>Choose the level of support that matches your workload. Additional services and custom support are available as needed.</p>
         </div>
 
-        <div class="pricing-grid">
+        <div class="pricing-layout">
           <article class="price-card reveal">
             <h3>Essential</h3>
-            <p class="best">Occasional support</p>
+            <p class="plan-desc">Perfect for smaller businesses needing occasional support.</p>
             <div class="price">$600<span>/month</span></div>
             <ul>
-              <li>Up to 8 hours per month</li>
-              <li>Invoice processing</li>
+              <li>Up to 8 hours of processing each month</li>
+              <li>Invoice processing across major platforms</li>
               <li>Remote support</li>
-              <li>Major platform support</li>
-              <li>Email communication</li>
+              <li>Email support</li>
             </ul>
-            <a class="button price-button" href="#contact">Get Started</a>
+            <a class="button outline" href="#contact">Get Started</a>
           </article>
 
           <article class="price-card featured reveal">
             <div class="badge">Most Popular</div>
             <h3>Professional</h3>
-            <p class="best">Consistent invoice volume</p>
+            <p class="plan-desc">Ideal for growing businesses with consistent invoice volume.</p>
             <div class="price">$1,200<span>/month</span></div>
             <ul>
-              <li>Up to 20 hours per month</li>
+              <li>Up to 20 hours of processing each month</li>
               <li>Everything in Essential</li>
-              <li>Priority processing</li>
-              <li>Field ticket support</li>
+              <li>Field ticket processing</li>
               <li>Invoice auditing</li>
+              <li>Priority turnaround</li>
               <li>Weekly status updates</li>
             </ul>
-            <a class="button primary" href="#contact">Get Started</a>
+            <a class="button primary light-button" href="#contact">Get Started</a>
           </article>
 
           <article class="price-card reveal">
             <h3>Dedicated</h3>
-            <p class="best">Ongoing AP support</p>
+            <p class="plan-desc">For companies requiring ongoing administrative support.</p>
             <div class="price">$2,000<span>/month</span></div>
             <ul>
-              <li>Up to 40 hours per month</li>
-              <li>Dedicated monthly processing time</li>
+              <li>Up to 40 hours of processing each month</li>
+              <li>Everything in Professional</li>
+              <li>Accounts payable administration</li>
               <li>Backlog management</li>
               <li>Monthly reporting</li>
-              <li>Customized workflow support</li>
+              <li>Priority scheduling</li>
             </ul>
-            <a class="button price-button" href="#contact">Get Started</a>
+            <a class="button outline" href="#contact">Get Started</a>
           </article>
-        </div>
 
-        <div class="extra-pricing reveal">
-          <strong>Additional services:</strong> Additional processing time $60/hour · Rush turnaround, backlog cleanup, vacation coverage and workflow setup available by custom quote.
+          <aside class="additional-card reveal">
+            <h3>Additional Services</h3>
+            <div class="line-item"><span>Additional processing time</span><strong>$60/hour</strong></div>
+            <div class="line-item"><span>Rush turnaround</span><strong>Custom Quote</strong></div>
+            <div class="line-item"><span>Backlog cleanup projects</span><strong>Custom Quote</strong></div>
+            <div class="line-item"><span>Vacation or maternity coverage</span><strong>Custom Quote</strong></div>
+            <div class="line-item"><span>Process documentation & workflow setup</span><strong>Custom Quote</strong></div>
+            <div class="custom-box">
+              <p>Need something different?</p>
+              <span>Let's build a plan that works for you.</span>
+              <a class="button primary" href="#contact">Request Quote</a>
+            </div>
+          </aside>
         </div>
       </div>
     </section>
 
-    <section class="section soft" id="why">
+    <section class="section why-section" id="why">
       <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Why Choose Us</p>
-          <h2>Support designed to keep billing moving.</h2>
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Why Choose Northern Invoice Solutions?</p>
+          <h2>Dependable support for the details that matter.</h2>
         </div>
 
         <div class="why-grid">
-          <article class="why-card reveal"><span>🛡️</span><h3>Accurate & Confidential</h3><p>Every invoice handled carefully with privacy and professionalism.</p></article>
-          <article class="why-card reveal"><span>⚡</span><h3>Fast Turnaround</h3><p>Reliable support to help prevent delays in your billing workflow.</p></article>
-          <article class="why-card reveal"><span>🌎</span><h3>Remote Across Canada</h3><p>Flexible support wherever your business operates.</p></article>
-          <article class="why-card reveal"><span>🏭</span><h3>Industry Experience</h3><p>Experience with energy, industrial and construction processes.</p></article>
-          <article class="why-card reveal"><span>📈</span><h3>Scalable Plans</h3><p>Increase support as your invoice volume or backlog grows.</p></article>
-          <article class="why-card reveal"><span>🤝</span><h3>Professional Communication</h3><p>Organized updates, clear follow-up and dependable support.</p></article>
+          <article class="why-card reveal">
+            <span>🛡️</span>
+            <h3>Accurate & Confidential</h3>
+            <p>Your data is secure and every invoice is handled with care.</p>
+          </article>
+          <article class="why-card reveal">
+            <span>⚡</span>
+            <h3>Fast Turnaround</h3>
+            <p>Quick, accurate processing that helps keep your cash flow moving.</p>
+          </article>
+          <article class="why-card reveal">
+            <span>🍁</span>
+            <h3>Canadian Company</h3>
+            <p>Based in Alberta and serving clients across Canada.</p>
+          </article>
+          <article class="why-card reveal">
+            <span>🏗️</span>
+            <h3>Industry Experience</h3>
+            <p>We understand energy, industrial, and construction workflows.</p>
+          </article>
+          <article class="why-card reveal">
+            <span>📈</span>
+            <h3>Flexible Plans</h3>
+            <p>Scalable support that grows with your business.</p>
+          </article>
+          <article class="why-card reveal">
+            <span>🤝</span>
+            <h3>Dedicated Support</h3>
+            <p>Reliable communication and a partner you can count on.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section contact-section" id="contact">
-      <div class="container contact-grid">
-        <div class="reveal">
-          <p class="eyebrow">Contact</p>
-          <h2>Request a consultation.</h2>
-          <p>Tell me what platforms you use, your approximate invoice volume and the type of support you need.</p>
-          <div class="contact-details">
-            <p><strong>Email:</strong> victoria@northerninvoicesolutions.ca</p>
-            <p><strong>Location:</strong> Grande Prairie, Alberta</p>
-            <p><strong>Service area:</strong> Remote across Canada</p>
+    <section class="section about-contact-section" id="about">
+      <div class="container about-contact-grid">
+        <div class="about-card reveal">
+          <div class="portrait-placeholder">VD</div>
+          <div>
+            <p class="eyebrow">About Northern Invoice Solutions</p>
+            <h2>Helping Canadian companies simplify invoice processing.</h2>
+            <p>Northern Invoice Solutions was founded by Victoria Despres to help Canadian businesses reduce administrative workload while improving invoice accuracy and turnaround times.</p>
+            <p>With high-volume processing experience across multiple platforms, I provide reliable, professional and confidential support so your team can focus on what matters most.</p>
+            <p class="signature">Victoria Despres<br><span>Founder</span></p>
           </div>
         </div>
 
-        <form class="contact-form reveal" action="https://formspree.io/f/your-form-id" method="POST">
-          <label>Name<input type="text" name="name" required placeholder="Your name"></label>
-          <label>Company<input type="text" name="company" placeholder="Company name"></label>
-          <label>Phone<input type="tel" name="phone" placeholder="Optional"></label>
-          <label>Email<input type="email" name="email" required placeholder="you@company.com"></label>
-          <label>Service Needed
-            <select name="service">
-              <option>Invoice processing</option>
-              <option>Field ticket processing</option>
-              <option>Invoice auditing</option>
-              <option>AP administration</option>
-              <option>Backlog cleanup</option>
-              <option>Custom support</option>
-            </select>
-          </label>
-          <label>Message<textarea name="message" rows="5" required placeholder="Tell me what you need help with..."></textarea></label>
-          <button type="submit">Send Message</button>
-          <p class="form-note">Form setup required before live submissions. We will connect this next.</p>
-        </form>
+        <div class="contact-card reveal" id="contact">
+          <p class="eyebrow">Request a Consultation</p>
+          <h2>Let's discuss how I can support your business.</h2>
+          <form action="https://formspree.io/f/your-form-id" method="POST">
+            <div class="form-row">
+              <label>Full Name<input type="text" name="name" required></label>
+              <label>Company Name<input type="text" name="company"></label>
+            </div>
+            <div class="form-row">
+              <label>Email Address<input type="email" name="email" required></label>
+              <label>Phone Number<input type="tel" name="phone"></label>
+            </div>
+            <label>What service do you need?
+              <select name="service">
+                <option>Invoice Processing</option>
+                <option>Field Ticket Processing</option>
+                <option>Invoice Auditing</option>
+                <option>AP Administration</option>
+                <option>Backlog Cleanup</option>
+                <option>Custom Support</option>
+              </select>
+            </label>
+            <label>How can I help your business?
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button type="submit">Send Message</button>
+            <p class="form-note">Form connection required before live submissions. We’ll connect this next.</p>
+          </form>
+
+          <div class="contact-details">
+            <p>📍 Grande Prairie, Alberta</p>
+            <p>✉️ victoria@northerninvoicesolutions.ca</p>
+            <p>🕘 Monday – Friday · 8:00 AM – 5:00 PM MST</p>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container footer">
+  <footer class="site-footer">
+    <div class="container footer-grid">
       <div>
-        <img src="assets/header-logo.png" alt="Northern Invoice Solutions">
+        <img src="assets/header-logo.png" alt="Northern Invoice Solutions logo">
         <p>Grande Prairie, Alberta</p>
         <p>Serving clients across Canada</p>
       </div>
-      <div class="footer-links">
+      <div>
+        <h3>Quick Links</h3>
         <a href="#services">Services</a>
         <a href="#pricing">Plans & Pricing</a>
-        <a href="#why">Why Us</a>
+        <a href="#why">Why Choose Us</a>
         <a href="#contact">Contact</a>
       </div>
-      <p>© 2026 Northern Invoice Solutions</p>
+      <div>
+        <h3>Contact</h3>
+        <p>victoria@northerninvoicesolutions.ca</p>
+        <p>© 2026 Northern Invoice Solutions</p>
+      </div>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
