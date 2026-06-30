@@ -1,19 +1,23 @@
-# Northern Invoice Solutions - Updated Website Files
+# Northern Invoice Solutions Website V2
 
-Upload these exact files/folders to the ROOT of your GitHub repository:
+Upload these files to the root of your website/GitHub repository:
 
 - index.html
 - style.css
 - script.js
 - assets folder
-- README.md
 
-The assets folder must contain:
+The assets folder should contain:
 - header-logo.png
 - logo.png
 - victoria-headshot.jpg
 - victoria-about.jpg
 
-## What was updated
+Important:
+1. Replace your old website files with these files together.
+2. Do not mix this index.html with the old style.css or old script.js.
+3. In index.html, replace this form URL before going live:
+   https://formspree.io/f/your-form-id
 
-Website copy has been adjusted away from Accounts Payable/AP wording and toward the correct service focus: contractor customer invoice processing, field ticket support, billing portal submission, invoice review, backlog cleanup, and billing administration support.
+Website positioning:
+Northern Invoice Solutions is now positioned as outsourced customer invoice processing for contractors, not Accounts Payable support.
