@@ -158,3 +158,49 @@ details p{color:var(--muted);margin-bottom:0}
   .floating-quote{display:none}
   .founder-photo,.founder-photo img{min-height:360px;height:360px}
 }
+
+
+.additional-services {
+  margin-top: 22px;
+  padding: 24px;
+  border-radius: 18px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.16);
+}
+
+.additional-services h3 {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.additional-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.additional-grid div {
+  padding: 14px;
+  border-radius: 12px;
+  background: rgba(255,255,255,.08);
+}
+
+.additional-grid span {
+  display: block;
+  color: #dbeafe;
+  font-size: .88rem;
+}
+
+.additional-grid strong {
+  color: #fff;
+  display: block;
+  margin-top: 8px;
+}
+
+@media(max-width:1100px) {
+  .additional-grid { grid-template-columns: repeat(2,1fr); }
+}
+
+@media(max-width:820px) {
+  .additional-grid { grid-template-columns: 1fr; }
+}
