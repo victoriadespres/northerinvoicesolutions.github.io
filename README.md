@@ -1,4 +1,4 @@
-# Northern Invoice Solutions - Final Clean Website
+# Northern Invoice Solutions - Updated Website Files
 
 Upload these exact files/folders to the ROOT of your GitHub repository:
 
@@ -13,3 +13,7 @@ The assets folder must contain:
 - logo.png
 - victoria-headshot.jpg
 - victoria-about.jpg
+
+## What was updated
+
+Website copy has been adjusted away from Accounts Payable/AP wording and toward the correct service focus: contractor customer invoice processing, field ticket support, billing portal submission, invoice review, backlog cleanup, and billing administration support.
