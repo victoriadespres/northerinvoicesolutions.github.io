@@ -11,8 +11,8 @@ Upload these files to the root of your website/GitHub repository:
 Important:
 1. Replace your old index.html, style.css, and script.js together.
 2. Do not mix these Version 2 files with the old website files.
-3. In index.html, replace this form URL before going live:
-   https://formspree.io/f/your-form-id
+3. Contact form is already connected to Formspree:
+   https://formspree.io/f/mqevdrrl
 
 Pricing included:
 - Starter: $495/month
